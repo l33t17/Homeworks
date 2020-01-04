@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".FinishActivity">
+
+
+    <!-- სახელი და გვარი -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="სახელი/გვარი: "
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayName"
+            android:layout_margin="5dp"
+            android:text="Aleksandre Gvichia"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+    <!-- ელ.ფოსტა -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ელ.ფოსტა: "
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayEmail"
+            android:layout_margin="5dp"
+            android:text="aleksandre.gvichia.1@btu.edu.ge"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+    <!-- სქესი -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="სქესი: "
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaySex"
+            android:layout_margin="5dp"
+            android:text="მამრობითი"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:id="@+id/exitApp"
+        android:layout_margin="10dp"
+        android:text="დასრულება"/>
+</LinearLayout>
